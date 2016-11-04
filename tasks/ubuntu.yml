@@ -5,6 +5,11 @@
 
 - name: install packages for debian system
   become: true
+  raw: apt update
+  when: dist_type == 'ubuntu'
+
+- name: install packages for debian system
+  become: true
   raw: apt install {{ item }} -y
 #  apt: name={{ item }} state=present
   with_items:
