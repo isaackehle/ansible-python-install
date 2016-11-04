@@ -3,7 +3,7 @@
 - name: include os-specific variables
   include_vars: "{{ dist_type }}.yml"
 
-- name: install packages for debian system
+- name: update apt cache
   become: true
   raw: apt update
   when: dist_type == 'ubuntu'
