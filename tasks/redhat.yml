@@ -1,0 +1,13 @@
+---
+
+- name: include os-specific variables
+  include_vars: "{{ dist_type }}.yml"
+
+- name: install packages for rhel system
+  become: true
+  yum: name={{ item }} state=present
+  with_items:
+    - "{{ main_packages }}"
+    - "{{ os_packages }}"
+    - "{{ python_package_modules }}"
+  when: dist_type == 'redhat'

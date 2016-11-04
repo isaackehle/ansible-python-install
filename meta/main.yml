@@ -1,0 +1,16 @@
+galaxy_info:
+  author: Paul Kehle <twitter.com/pgkehle>
+  description: Install python and python tools
+  company: pgkehle
+  license: MIT
+  min_ansible_version: 1.9
+  platforms:
+  - name: Ubuntu
+    versions:
+    - xenial
+  - name: EL
+    versions:
+    - all
+  galaxy_tags:
+  - system
+dependencies: []
