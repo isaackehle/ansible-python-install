@@ -19,9 +19,12 @@ None
 
 ## Example Playbook
 
-    - hosts: all
-      roles:
-         - { role: pgkehle.python, dist_type: "ubuntu" }
+```yaml
+- hosts: all
+  gather_facts: no     
+  roles:
+     - { role: pgkehle.python, dist_type: "ubuntu" }
+```
 
 ## License
 
