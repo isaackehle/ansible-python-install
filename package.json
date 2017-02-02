@@ -1,6 +1,6 @@
 {
   "name": "ansible-python-install",
-  "version": "0.9.9",
+  "version": "1.0.0",
   "description": "Ensure that python and python tools are installed on a system",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
