@@ -1,0 +1,23 @@
+{
+  "name": "ansible-python-install",
+  "version": "0.9.9",
+  "description": "Ensure that python and python tools are installed on a system",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgkehle/ansible-python-install.git"
+  },
+  "author": "Paul Kehle (pgkehle@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pgkehle/ansible-python-install/issues"
+  },
+  "homepage": "https://github.com/pgkehle/ansible-python-install#readme",
+  "main": "tasks/main.yml",
+  "keywords": [
+    "ansible"
+  ]
+}
