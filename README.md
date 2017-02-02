@@ -1,6 +1,6 @@
 # Ansible Role - install-python
 
-This role will ensure that python is installed.
+Ensure that python and python tools are installed on a system.
 
 Available on Ansible Galaxy: [pgkehle.install-python](https://galaxy.ansible.com/pgkehle/install-python)
 
