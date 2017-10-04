@@ -1,10 +1,10 @@
 ---
 
 # Setup/install tasks.
-- include: ubuntu.yml
+- include_tasks: ubuntu.yml
   when: dist_type == 'ubuntu'
 
-- include: redhat.yml
+- include_tasks: redhat.yml
   when: dist_type == 'redhat'
 
 - name: install pip modules
