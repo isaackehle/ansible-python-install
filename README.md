@@ -1,8 +1,8 @@
-# Ansible Role - install-python
+# Ansible Role - python-install
 
 Ensure that python and python tools are installed on a system.
 
-Available on Ansible Galaxy: [pgkehle.install-python](https://galaxy.ansible.com/pgkehle/install-python)
+Available on Ansible Galaxy: [pgkehle.python-install](https://galaxy.ansible.com/pgkehle/python-install)
 
 
 ## Requirements
@@ -23,7 +23,7 @@ None
 - hosts: all
   gather_facts: no     
   roles:
-     - { role: pgkehle.python, dist_type: "ubuntu" }
+     - { role: pgkehle.python-install, dist_type: "ubuntu" }
 ```
 
 ## License
