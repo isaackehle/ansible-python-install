@@ -2,8 +2,7 @@
 
 Ensure that python and python tools are installed on a system.
 
-Available on Ansible Galaxy: [pgkehle.python-install](https://galaxy.ansible.com/pgkehle/python-install)
-
+Available on Ansible Galaxy: [isaackehle.python-install](https://galaxy.ansible.com/isaackehle/python-install)
 
 ## Requirements
 
@@ -21,13 +20,11 @@ None
 
 ```yaml
 - hosts: all
-  gather_facts: no     
+  gather_facts: no
   roles:
-     - { role: pgkehle.python-install, dist_type: "ubuntu" }
+    - { role: isaackehle.python-install, dist_type: "ubuntu" }
 ```
 
 ## License
 
 MIT
-
-
